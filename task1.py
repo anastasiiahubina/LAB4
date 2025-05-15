@@ -1,3 +1,4 @@
+ #перша
 import heapq
 from collections import defaultdict
 
@@ -43,4 +44,4 @@ if __name__ == "__main__":
                 routes.append((s, ts, f, tf))
         print(find_min_time(n, a, b, routes))
     except Exception:
-        print(-1)  # У разі будь-якої помилки повернути -1
+        print(-1)  # У разі будь-якої помилки повернути -1 
